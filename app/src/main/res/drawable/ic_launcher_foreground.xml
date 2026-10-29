@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.86"
+        android:scaleY="0.86">
+        <!-- TV body -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M40,28 H80 A4,4 0 0 1 84,32 V54 A4,4 0 0 1 80,58 H40 A4,4 0 0 1 36,54 V32 A4,4 0 0 1 40,28 Z" />
+        <!-- Screen -->
+        <path
+            android:fillColor="#FF1A1150"
+            android:pathData="M41,31 H79 A2,2 0 0 1 81,33 V53 A2,2 0 0 1 79,55 H41 A2,2 0 0 1 39,53 V33 A2,2 0 0 1 41,31 Z" />
+        <!-- Play button -->
+        <path
+            android:fillColor="#FFFF7A3D"
+            android:pathData="M55,36 L55,50 L67,43 Z" />
+        <!-- Stand -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M54,58 H66 V62 H54 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M47,62 H73 A2,2 0 0 1 73,66 H47 A2,2 0 0 1 47,62 Z" />
+        <!-- Phone cut-out ring -->
+        <path
+            android:fillColor="#FF2B1B6B"
+            android:pathData="M28,43 H40 A6,6 0 0 1 46,49 V77 A6,6 0 0 1 40,83 H28 A6,6 0 0 1 22,77 V49 A6,6 0 0 1 28,43 Z" />
+        <!-- Phone body -->
+        <path
+            android:fillColor="#FF5CE1E6"
+            android:pathData="M28,46 H40 A4,4 0 0 1 44,50 V76 A4,4 0 0 1 40,80 H28 A4,4 0 0 1 24,76 V50 A4,4 0 0 1 28,46 Z" />
+        <!-- Phone screen -->
+        <path
+            android:fillColor="#FF0F1A3F"
+            android:pathData="M28.5,51 H39.5 A2,2 0 0 1 41.5,53 V73 A2,2 0 0 1 39.5,75 H28.5 A2,2 0 0 1 26.5,73 V53 A2,2 0 0 1 28.5,51 Z" />
+        <!-- Folder on the phone -->
+        <path
+            android:fillColor="#FFFFC857"
+            android:pathData="M29,60 H33 L34.5,61.8 H39 V70 H29 Z" />
+        <!-- Signal -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M48,73 A7,7 0 0 1 55,80"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="3" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M48,67 A13,13 0 0 1 61,80"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="3" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M48,80 m-2.2,0 a2.2,2.2 0 1 1 4.4,0 a2.2,2.2 0 1 1 -4.4,0" />
+    </group>
+</vector>

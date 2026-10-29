@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:resize_mode="fit"
+        app:show_buffering="when_playing"
+        app:show_timeout="4000"
+        app:use_controller="true" />
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/bg_top_scrim"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="36dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_audio"
+            style="@style/BeamButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_audio"
+            android:text="Audio" />
+
+        <Button
+            android:id="@+id/btn_subs"
+            style="@style/BeamButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_subtitles"
+            android:text="Subtitles" />
+
+        <Button
+            android:id="@+id/btn_speed"
+            style="@style/BeamButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_speed"
+            android:text="Speed" />
+
+        <Button
+            android:id="@+id/btn_aspect"
+            style="@style/BeamButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_aspect"
+            android:text="Aspect" />
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/BeamButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_next"
+            android:text="Next" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/seek_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_overlay"
+        android:paddingStart="28dp"
+        android:paddingTop="14dp"
+        android:paddingEnd="28dp"
+        android:paddingBottom="14dp"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</FrameLayout>
